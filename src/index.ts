@@ -1,5 +1,21 @@
-import * as dateTimeHelpers from './dateTimeHelpers';
+import {
+  hoursToDays,
+  hoursToMicroseconds,
+  hoursToMilliseconds,
+  hoursToMinutes,
+  hoursToMonths,
+  hoursToNanoseconds,
+  hoursToSeconds,
+  hoursToWeeks,
+} from "./dateTimeHelpers";
 
 export default {
-    ...dateTimeHelpers
-}
+  hoursToDays,
+  hoursToMicroseconds,
+  hoursToMilliseconds,
+  hoursToMinutes,
+  hoursToMonths,
+  hoursToNanoseconds,
+  hoursToSeconds,
+  hoursToWeeks,
+};
