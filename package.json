@@ -2,8 +2,8 @@
   "name": "jshf",
   "version": "1.0.2",
   "description": "Predefined javascript functions",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
