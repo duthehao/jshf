@@ -1,0 +1,16 @@
+{
+  "name": "jshf",
+  "version": "1.0.0",
+  "description": "Predefined javascript functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
+  "author": "Kelvin Du",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
