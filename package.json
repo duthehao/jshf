@@ -2,11 +2,11 @@
   "name": "jshf",
   "version": "1.0.4",
   "description": "Predefined javascript functions",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "publishscript": "npm run build && cp package.json dist && cd dist && npm publish"
   },
   "author": "Kelvin Du",
   "license": "ISC",
