@@ -1,6 +1,6 @@
 {
   "name": "jshf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Predefined javascript functions",
   "main": "index.js",
   "types": "index.d.ts",
